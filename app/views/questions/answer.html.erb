@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="title">
+    <h1>What looks like a stupid coaching!</h1>
+  </div>
+  <div class="question">
+    <figure>
+        <blockquote>
+            <p> <%= @question %></p>
+            <figcaption>— You</figcaption>
+        </blockquote>
+    </figure>
+  </div>
+  <div class="answer">
+    <figure>
+        <blockquote>
+            <p> <%= @coach %></p>
+            <figcaption>— Your <strong>stupid</strong> coach</figcaption>
+        </blockquote>
+    </figure>
+  </div>
+  <div class="again">
+    <h3><%= link_to "Play again ?", ask_path %></h3>
+  </div>
+</div>
